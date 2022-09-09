@@ -23,7 +23,7 @@ variable "custom_security_group_id" {
 
 variable "instance_type" {
   description = "The type of instances to create."
-  default     = "c4.xlarge"
+  default     = "c5.xlarge"
   type        = string
 }
 
@@ -113,7 +113,7 @@ variable "yb_download_url" {
 
 variable "yb_version" {
   description = "The version number of YugaByteDB to install"
-  default     = "2.15.1.0"
+  default     = "2.15.1.0-b175"
   type        = string
 }
 
